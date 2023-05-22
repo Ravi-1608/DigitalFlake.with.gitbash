@@ -1,0 +1,174 @@
+.dashboard {
+    display: grid;
+    background-color: white;
+    grid-template-columns: auto auto auto auto;
+    border: 1px solid black;
+    grid-template-rows: 80px 630px;
+    margin: auto;
+    padding: auto;
+
+
+}
+
+/* navigator section  */
+.navigator {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background: #662671;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.logo {
+    display: grid;
+    color: #FFFFFF;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    position: relative; /* Added */
+}
+
+.small-logo{
+    display: inline-block;
+    position: relative;
+    top: 17px;
+    left: 20px;
+    width: 35px;
+    height: 35px;
+    padding: 3px;
+    border: 3px solid #FFFFFF;
+    border-radius: 5px;
+    
+}
+.Logo-text{
+    
+    position: absolute;
+    top: 16px;
+    left: 65px;
+    width: 80px;
+    height: 35px;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.small-logo img{
+    width: 30px;
+    height: 30px;
+    padding: 2px 5px 2px 3px;
+}
+
+
+.profile {
+ padding: 10px;
+}
+
+
+
+
+
+.logout-button {
+    position: relative;
+    left: 50%;
+    top: 15%;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    background: #FFFFFF;
+    border: 0.707937px solid #B13129;
+    box-shadow: 0px 2.83175px 7.07937px rgba(0, 0, 0, 0.25);
+    border-radius: 7.07937px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #B13129;
+
+
+}
+
+/* menu section */
+
+.home{grid-area: Home;}
+.image{grid-area: image;}
+.category{grid-area: category;}
+.products{grid-area: products;}
+.icon{grid-area: icon1;}
+
+.Menu-view {
+    padding: 10px;
+    border: 1px solid white;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+   
+}
+/* dashbaord section */
+
+.Item-view {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    text-align: center;
+    border: 1px solid white;
+    margin: 3px;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.Item-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Item-view p{
+    font-weight: 600;
+    margin-top: 10px; /* Adjust the spacing as needed */
+  text-align: center;
+
+}
+
+#logo1{
+    
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+#btn1,#btn2,#btn3{
+    position: absolute;
+    top: 99px;
+    left: 330px;
+    height: 45px;
+    width: 20px;
+    font-size: 20px;
+    color: palevioletred;
+    border: none;
+    background-color:#F4F4F4 ;
+}
+
+#btn1:hover,#btn2:hover,#btn3:hover{
+    background-color:#FFF8B7 ;
+
+}
+
+#btn2{
+  
+    top: 152px;
+}
+#btn3{
+    top: 206px;
+}
+
